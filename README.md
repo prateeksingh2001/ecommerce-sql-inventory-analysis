@@ -1,32 +1,28 @@
 # E-commerce Inventory SQL Analysis
-This project demonstrates SQL-based data analysis on an e-commerce inventory dataset.
-The analysis focuses on pricing, discounts, stock availability, and category-level
-performance using PostgreSQL.
 
-## Project Overview
-The objective of this project is to simulate a real-world data analyst workflow:
-- Import raw CSV data into PostgreSQL
-- Clean and transform pricing and inventory data
-- Perform exploratory and business-focused SQL analysis
-- Extract actionable insights using SQL queries
+This project performs SQL-based data analysis on an e-commerce inventory dataset
+using PostgreSQL. The analysis focuses on pricing, discounts, stock availability,
+and category-level performance.
 
-## Dataset
-The dataset represents product-level inventory data including:
-- Product name and category
-- Price and discount information
-- Stock availability
-- Ratings and quantities
+## Project Workflow
+1. Database schema creation
+2. Data exploration and validation
+3. Data cleaning and transformation
+4. Business-focused SQL analysis
 
-## Key Analysis Performed
-- Price distribution analysis
-- Discount effectiveness across categories
-- Out-of-stock and inventory health analysis
-- Category-wise performance insights
+## Key Insights
+- Identified best-value products using discount percentages
+- Analyzed high-value products that are out of stock
+- Estimated category-wise revenue
+- Evaluated price efficiency using price-per-gram analysis
 
 ## Tools & Technologies
 - PostgreSQL
 - SQL
 - CSV Data
 
-## Project Status
-Complet
+## Folder Structure
+- `sql/01_schema.sql` – table creation
+- `sql/02_data_exploration.sql` – initial analysis
+- `sql/03_data_cleaning.sql` – data cleaning
+- `sql/04_data_analysis.sql` – business insights
